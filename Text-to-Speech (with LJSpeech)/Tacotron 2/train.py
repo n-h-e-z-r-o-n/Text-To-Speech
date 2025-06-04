@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 training the Tacotron Text-To-Speech model, an end-to-end neural text-to-speech (TTS) system
 
@@ -8,13 +7,6 @@ training the Tacotron Text-To-Speech model, an end-to-end neural text-to-speech 
  to infer simply load saved model:
         - savemodel.infer(text_Sequence,len(textsequence))
 
- were text_Sequence is the output of the text_to_sequence function from
- textToSequence.py (from textToSequence import text_to_sequence)
-
- Authors
- * Georges Abous-Rjeili 2021
- * Artem Ploujnikov 2021
- * Yingzhi Wang 2022
 """
 import sys
 
